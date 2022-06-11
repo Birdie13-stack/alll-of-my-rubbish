@@ -1,0 +1,28 @@
+.grid-container{
+
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: minmax(200px, auto);
+   column-gap: 20px;
+   row-gap: 30px;
+   border: 1px solid red;
+   
+   
+}
+
+div{
+   border: 1px solid red;
+   /* width: 600px; */
+
+
+}
+
+.flex-container{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap; 
+   justify-content: center;
+   border: 1px solid green;
+   align-items: center;
+   height: 700px;
+}
